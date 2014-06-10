@@ -131,3 +131,14 @@
     > org.apache.maven.plugins	maven-site-plugin	3.3
     > org.apache.maven.plugins	maven-surefire-plugin	2.17
 
+## maven version ##
+
+    > # mvn --version
+    > Apache Maven 3.1.1 (0728685237757ffbf44136acec0402957f723d9a; 2013-09-18 00:22:2
+    > 2+0900)
+    > Maven home: C:\tool\Maven\apache-maven-3.1.1
+    > Java version: 1.7.0_17, vendor: Oracle Corporation
+    > Java home: C:\tool\Java\jdk1.7.0_17\jre
+    > Default locale: ja_JP, platform encoding: MS932
+    > OS name: "windows 7", version: "6.1", arch: "amd64", family: "windows"
+
