@@ -11,6 +11,22 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <profiles>
+    <profile>
+      <id>profile_alpha</id>
+      <properties>
+        <surefire_option>alpha_value</surefire_option>
+      </properties>
+    </profile>
+    <profile>
+      <id>profile_beta</id>
+      <properties>
+        <surefire_option>beta_value</surefire_option>
+      </properties>
+    </profile>
+  </profiles>
+  
   <build>
     <plugins>
       <plugin>
@@ -27,7 +43,7 @@
         <version>2.17</version>
         <configuration>
           <systemPropertyVariables>
-            <option>value12345 ${surefire_option} ${basedir}</option>
+            <option>value12345 ${surefire_option}</option>
           </systemPropertyVariables>
         </configuration>
       </plugin>
